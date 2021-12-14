@@ -7,7 +7,17 @@ Line Number Plugin for [Highlight.js](https://github.com/highlightjs/highlight.j
 
 Usage
 -----
+## for jekyll
 
+you need custom css/scss:
+
+```css
+pre .hljs[style]:first-child {
+  background: black !important;
+  border-right-color: cyan !important; /* here to change the border color */
+  color: white !important;
+}
+```
 ### Browsers
 
 ~~~ .html
