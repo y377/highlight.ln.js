@@ -2,7 +2,8 @@
 ==================================================================================
 
 ![image](https://user-images.githubusercontent.com/58632405/146037176-ffb9f3e4-984d-4de4-a143-199f7614372b.png)
-# Thank the original author for writing such a good plug-in
+# Thank the [original author](https://github.com/taufik-nurrohman) for writing such a good plug-in
+# 非常感谢[原作者](https://github.com/taufik-nurrohman)写出这么好的插件并且帮助我修改
 
 如何使用？how t use？
 -----
