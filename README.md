@@ -23,10 +23,10 @@ pre .hljs[style]:first-child {
 ```html
 <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.3.1/build/highlight.js"></script>
 <script src="/your_path/highlight.ln.js"></script>
-    <script>
-    hljs.highlightAll();
-    hljs.configure({ ignoreUnescapedHTML: true });//防止什么注入攻击？
-    </script>
+<script>
+  hljs.highlightAll();
+  hljs.configure({ ignoreUnescapedHTML: true });//防止什么注入攻击？
+</script>
 ```
 
 ### ES6 Modules (TODO)
