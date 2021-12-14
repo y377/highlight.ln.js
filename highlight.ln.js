@@ -17,7 +17,7 @@
                 lines = doc.createElement('code'),
                 numbers = [];
             if (blockHasParent) {
-                for (let i = 0, j = block.textContent.split(/\n/).length; i < j; ++i) {
+                for (let i = 0, j = block.textContent.trimEnd().split(/\n/).length; i < j; ++i) {
                     numbers.push(i + 1);
                 }
                 blockParent.insertBefore(lines, block);
