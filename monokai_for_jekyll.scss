@@ -9,15 +9,8 @@ code.hljs {
 }
 
 .hljs {
-    background: #2c3f42;
-    color: #bdc2bf;
-}
-
-pre .hljs[style]:first-child {
-    /*  background: black !important;
-border-right-color: cyan !important;
- here to change the border color */
-    color: #6c757d !important;
+    background: #272822;
+    color: #ddd
 }
 
 .hljs-keyword,
@@ -74,4 +67,16 @@ border-right-color: cyan !important;
 .hljs-literal,
 .hljs-section,
 .hljs-selector-id,
-.hljs-se
+.hljs-selector-tag,
+.hljs-title,
+.hljs-type {
+    font-weight: 700
+}
+
+pre .hljs[style]:first-child {
+    /*  background: black !important;
+    
+    here to change the border color */
+    color: #616161 !important;
+    border-right-color: #424242 !important;
+}
